@@ -1,0 +1,20 @@
+
+
+H1{
+    text-align :center;
+   color: Blue; 
+    
+}
+
+.Encabezado,.menu
+{
+    background-color: black;
+     padding: 2px;
+}
+
+.Encabezado>.logo
+{
+   background-image: url("../images/Encabezado.png");
+    
+    
+}

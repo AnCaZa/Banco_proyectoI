@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.form_inicio{
+    
+     border: 1px solid #999;
+     width: 170px;
+  box-sizing: border-box;
+  background-color: black;
+  
+}
+
+form>input[type=password],form>input[type=text]{
+    
+     border: 1px black;
+     width: 150px; 
+  
+ 
+}
+.fecha:invalid
+{
+    
+    border: red solid 3px;
+}
+.Cuerpo
+{
+    background: url("/Banco_proyectoI/images/dinero.jpg");
+    background-size: 75% 100%;
+    
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+p{
+    padding:1px;
+    color: white;
+    text-align: left;
+}
+h2{
+    text-align :center;
+   color: white; 
+    border: green 5px inset;
+    background: black;
+}
+
+form>center>input[type=submit]:hover,input[type=button]:hover {
+    
+    background: greenyellow;
+}
+body{
+    background:  url(../images/dinero1.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Registro
+{
+     width: 50%;
+     margin:auto; 
+     border: 5px  black;
+     border-style: dotted;
+    
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+    
+    
+}
+li>a{
+   color:blanchedalmond;
+   text-decoration: none;
+   display: block;
+   padding: 12px 26px;
+   font-family: "Oswald";
+   font-size: 18px;
+}
+#Menu{
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9dd53a+0,0a1c03+79 */
+background: #9dd53a; /* Old browsers */
+background: -moz-linear-gradient(top,  #9dd53a 0%, #0a1c03 79%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #9dd53a 0%,#0a1c03 79%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #9dd53a 0%,#0a1c03 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#0a1c03',GradientType=0 ); /* IE6-9 */
+
+    width: 1263px;
+    height: 52px;
+    
+    
+}
+.Barra{
+    color: rgba(153,153,153,1);
+    padding: 15px 0 0 0;
+    
+}
+#Menu a:hover{
+    color: rgba(255,153,0,1);
+    background: rgba(0,0,0,0.2);
+    animation: 1s ms 1;
+}
+.Nav>li{
+    
+ float: left;   
+    
+}
+li>ul{
+    
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.Nav>li:hover>ul{
+    
+ display: block;   
+    
+}
+th,td{
+    padding: 20px; 
+}
+table{
+    width: 100%;
+    text-align: left;
+    background-color:white; 
+    border-collapse: collapse;
+}
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+    
+}
+tr:nth-child(even){
+    background-color: #ddd;
+    
+}
+
+.td_button:hover{
+   background-color: #369681;
+   color: white;
+    
+}
+@keyframes ms{
+    0%{
+        transform:scale(1.6);
+        opacity(0);
+        
+    }
+    
+}
