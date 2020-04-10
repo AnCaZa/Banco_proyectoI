@@ -135,7 +135,8 @@ public class Controller extends HttpServlet {
             model.setCurrent(new Persona(request.getParameter("txtCedula"), request.getParameter("txtNombre"), request.getParameter("txtTelefono")));
            return "/Presentacion/Cajero/Cuenta.jsp";
         } catch (Exception ex) {
-            return "";
+            errores.put("txtCedula","Cedula ya existe");
+            return "/Presentacion/Registro.jsp";
         }
     }
     
